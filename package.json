@@ -1,0 +1,22 @@
+{
+  "name": "subtitle_downloader",
+  "version": "1.0.0",
+  "description": "descarga subtitulos de subdivx",
+  "main": "index.js",
+  "scripts": {
+	"start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Antonio Garrido",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "node-unrar-js": "^0.8.1",
+    "properties-reader": "0.0.16",
+    "superagent": "^3.8.2",
+    "superagent-binary-parser": "^1.0.1",
+    "superagent-charset": "^1.2.0"
+  }
+}

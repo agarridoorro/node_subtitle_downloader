@@ -1,0 +1,12 @@
+[Unit]
+Description=Subtitle downloader Service
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi/apps/subtitle_downloader
+ExecStart=/usr/bin/npm start
+Restart=on-failure
+User=pi
+
+[Install]
+WantedBy=multi-user.target
